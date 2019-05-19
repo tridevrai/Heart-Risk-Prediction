@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+.page-wrapper{
+	background-image: url(image.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+.header{
+	width: 100%;
+	height: 100%%;
+	background-color: rgba(0,0,0,0.7);
+}
+.left-header h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 32px;
+	font-family: ariel;
+}
+.imgs{
+	background-image: url(heart1.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height:50vh;
+}
+.button{
+	margin-left: 100px;
+	margin-top: 100px;
+
+}
+.button1{
+	background-color: #4682B4;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	font-size:24px;
+	width: 20%;
+	height: 20vh;
+	display: inline-block;
+ }
+ .button1:hover{
+ 	cursor: pointer;
+ 	background-color: #5186db;
+ 	color: #000;
+ }
+ .button2{
+	background-color: #4682B4;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	font-size:24px;
+	width: 20%;
+	height: 20vh;
+	display: inline-block;
+ }
+ .button2:hover{
+ 	cursor: pointer;
+ 	background-color: #5186db;
+ 	color: #000;
+ }
+ .container{
+ 	width: 320px;
+ 	height: 420px;
+ 	top: 50%;
+ 	left: 50%;
+ 	position: absolute;
+ 	background-color: rgba(52,73,94,0.7);
+ 	border-radius: 25px;
+ 	box-sizing: border-box;
+ 	transform: translate(-50%,-50%);
+ 	padding: 70px 30px;
+ }
+ .container img{
+ 	width: 100px;
+ 	height: 100px;
+ 	margin-top: -120px;
+ 	margin-bottom: 30px;
+ 	margin-left: 30%;
+ }
+ input{
+ 	margin-bottom: : 20px;
+ 	width: 100%;
+ }
+ .container input[type="text"],input[type="password"]{
+ 	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background: transparent;
+ 	outline: none;
+ 	height: 40px;
+ 	color: #fff;
+ 	font-size: 16px;
+ }
+ .container p{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	font-weight: bold;
+ 	color: white;
+ 	font-size: 18px;
+ 	font-family: garamond;
+ }
+ .container input[type="submit"]{
+ 	margin-top: 20px;
+ 	height: 40px;
+ 	background: #103572;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	border-radius: 25px;
+ }
+  .container input[type="submit"]:hover{
+  	cursor: pointer;
+  	background-color: #5186db;
+  	color: #000;
+  }
+  .nav1{
+ 	margin: 0px  ;
+ 	padding: 0px;
+ }
+ ul{
+ list-style-type: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    width:260px;
+    height:35px;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    resize: 68
+}
+ 
+   
